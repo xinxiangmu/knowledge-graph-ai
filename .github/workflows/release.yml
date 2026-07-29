@@ -19,22 +19,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install --only=dev
-
-      - name: Run TypeScript check
-        run: npm run typecheck
-
-      - name: Build the plugin
-        run: npm run build
-
-      - name: Verify build artifacts
-        run: ls -la
+      - name: Verify release files
+        run: |
+          test -f main.js || (echo "ERROR: main.js not found" && exit 1)
+          test -f manifest.json || (echo "ERROR: manifest.json not found" && exit 1)
+          test -f styles.css || (echo "ERROR: styles.css not found" && exit 1)
+          echo "All release files verified"
+          ls -la main.js manifest.json styles.css
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

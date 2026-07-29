@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "noEmit": false,
+    "declaration": false,
+    "types": ["node", "obsidian"]
+  },
+  "include": [
+    "src/main.ts",
+    "src/models/**/*",
+    "src/services/**/*",
+    "src/verification/**/*",
+    "src/ui/*.ts",
+    "src/utils/**/*"
+  ],
+  "exclude": ["node_modules", "__tests__", "dist"]
+}

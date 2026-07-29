@@ -1,7 +1,7 @@
 {
   "id": "knowledge-graph-ai",
   "name": "Knowledge Graph AI",
-  "version": "1.0.12",
+  "version": "1.0.11",
   "minAppVersion": "1.5.0",
   "description": "Transform text into structured knowledge graphs with AI-powered entity extraction and relationship mapping.",
   "author": "zero",

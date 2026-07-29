@@ -13,7 +13,6 @@
     "uuid": "^14.0.0"
   },
   "devDependencies": {
-    "@esbuild/darwin-x64": "^0.21.0",
     "@grafeo-db/wasm-lite": "0.5.40",
     "@rollup/plugin-commonjs": "^29.0.3",
     "@rollup/plugin-node-resolve": "^16.0.3",

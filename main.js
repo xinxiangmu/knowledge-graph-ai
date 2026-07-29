@@ -9778,7 +9778,7 @@ function initLanguageConfig(app) {
   languageApp = app;
 }
 function getCurrentLanguage() {
-  const lang = languageApp ? languageApp.loadLocalStorage("knowledge-graph-lang") : localStorage.getItem("knowledge-graph-lang");
+  const lang = localStorage.getItem("knowledge-graph-lang");
   return lang || "zh-CN";
 }
 

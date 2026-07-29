@@ -216,16 +216,10 @@ export function initLanguageConfig(app: App): void {
 }
 
 export function getCurrentLanguage(): LanguageCode {
-  const lang = languageApp
-    ? languageApp.loadLocalStorage('knowledge-graph-lang')
-    : localStorage.getItem('knowledge-graph-lang');
+  const lang = localStorage.getItem('knowledge-graph-lang');
   return (lang || 'zh-CN') as LanguageCode;
 }
 
 export function setCurrentLanguage(lang: LanguageCode): void {
-  if (languageApp) {
-    languageApp.saveLocalStorage('knowledge-graph-lang', lang);
-  } else {
-    localStorage.setItem('knowledge-graph-lang', lang);
-  }
+  localStorage.setItem('knowledge-graph-lang', lang);
 }

@@ -101,7 +101,7 @@ export class SettingsTab {
   }
 
   public loadSettings(): void {
-    const savedSettings = this.plugin.app.loadLocalStorage('knowledge-graph-settings');
+    const savedSettings = localStorage.getItem('knowledge-graph-settings');
     if (savedSettings) {
       try {
         this.settings = { ...DEFAULT_SETTINGS, ...JSON.parse(savedSettings) };
@@ -112,7 +112,7 @@ export class SettingsTab {
   }
 
   public saveSettings(): void {
-    this.plugin.app.saveLocalStorage('knowledge-graph-settings', JSON.stringify(this.settings));
+    localStorage.setItem('knowledge-graph-settings', JSON.stringify(this.settings));
   }
 
   private validateApiAddress(address: string): string | null {

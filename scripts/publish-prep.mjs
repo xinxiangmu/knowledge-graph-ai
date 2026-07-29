@@ -19,6 +19,7 @@ const filesToCopy = [
   { source: resolve(pluginRoot, 'LICENSE'), dest: resolve(publishDir, 'LICENSE') },
   { source: resolve(pluginRoot, 'package.json'), dest: resolve(publishDir, 'package.json') },
   { source: resolve(pluginRoot, 'tsconfig.json'), dest: resolve(publishDir, 'tsconfig.json') },
+  { source: resolve(pluginRoot, 'versions.json'), dest: resolve(publishDir, 'versions.json') },
   { source: resolve(pluginRoot, '.github/workflows/release.yml'), dest: resolve(publishDir, '.github/workflows/release.yml') },
   { source: resolve(pluginRoot, '.github/workflows/ci.yml'), dest: resolve(publishDir, '.github/workflows/ci.yml') },
 ];

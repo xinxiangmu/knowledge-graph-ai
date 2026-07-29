@@ -24,8 +24,9 @@ jobs:
           test -f main.js || (echo "ERROR: main.js not found" && exit 1)
           test -f manifest.json || (echo "ERROR: manifest.json not found" && exit 1)
           test -f styles.css || (echo "ERROR: styles.css not found" && exit 1)
+          test -f versions.json || (echo "ERROR: versions.json not found" && exit 1)
           echo "All release files verified"
-          ls -la main.js manifest.json styles.css
+          ls -la main.js manifest.json styles.css versions.json
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -41,6 +42,7 @@ jobs:
             - `main.js` - Plugin main file
             - `manifest.json` - Plugin metadata
             - `styles.css` - Plugin styles
+            - `versions.json` - Version compatibility map
 
             ### Installation:
             1. Download the files from the Assets below
@@ -53,3 +55,4 @@ jobs:
             main.js
             manifest.json
             styles.css
+            versions.json

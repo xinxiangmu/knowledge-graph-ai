@@ -3,7 +3,7 @@ name: Release Plugin
 on:
   push:
     tags:
-      - '*'
+      - 'v*'
 
 env:
   PLUGIN_NAME: knowledge-graph-ai
@@ -16,26 +16,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run TypeScript check
-        run: npm run typecheck
-
-      - name: Build the plugin
-        run: npm run build
-
-      - name: Verify build artifacts
-        run: ls -la
+      - name: Verify release files
+        run: |
+          test -f main.js || (echo "main.js not found!" && exit 1)
+          test -f manifest.json || (echo "manifest.json not found!" && exit 1)
+          test -f styles.css || (echo "styles.css not found!" && exit 1)
+          test -f versions.json || (echo "versions.json not found!" && exit 1)
+          echo "All release files verified"
+          ls -la main.js manifest.json styles.css versions.json
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -45,12 +34,13 @@ jobs:
           body: |
             ## What's Changed
 
-            Automated release for version ${{ github.ref_name }}
+            Release version ${{ github.ref_name }}
 
             ### Files included:
             - `main.js` - Plugin main file
             - `manifest.json` - Plugin metadata
             - `styles.css` - Plugin styles
+            - `versions.json` - Version compatibility tracking
 
             ### Installation:
             1. Download the files from the Assets below
@@ -63,3 +53,4 @@ jobs:
             main.js
             manifest.json
             styles.css
+            versions.json

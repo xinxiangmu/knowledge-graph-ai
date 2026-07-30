@@ -30,9 +30,9 @@
 
 ### 🔒 隐私政策 / Privacy Policy
 
-- 🇨🇳 隐私政策 / Privacy Policy: [privacy.html](https://knowledge-graph-ai.pages.dev/privacy.html)
-- 🇬🇧 服务条款 / Terms of Service: [terms.html](https://knowledge-graph-ai.pages.dev/terms.html)
-- 🇬🇧 退款政策 / Refund Policy: [refund.html](https://knowledge-graph-ai.pages.dev/refund.html)
+- 🇨🇳 隐私政策 / Privacy Policy: [privacy.html](https://cloudflare-worker-30k.pages.dev/privacy.html)
+- 🇬🇧 服务条款 / Terms of Service: [terms.html](https://cloudflare-worker-30k.pages.dev/terms.html)
+- 🇬🇧 退款政策 / Refund Policy: [refund.html](https://cloudflare-worker-30k.pages.dev/refund.html)
 
 ### 💖 支持作者 / Support
 

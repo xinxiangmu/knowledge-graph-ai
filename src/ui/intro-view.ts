@@ -411,7 +411,7 @@ export class IntroView {
     const billingYearly = this.container.querySelector('#kg-billing-yearly');
 
     const handlePurchase = async (plan: 'monthly' | 'yearly') => {
-      window.open('https://leenchat.com/', '_blank');
+      window.open('https://api.leenchat.com/#pricing', '_blank');
     };
 
     if (monthlyBtn) {

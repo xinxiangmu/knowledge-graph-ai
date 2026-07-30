@@ -428,7 +428,7 @@ export class GraphView {
 
       if (x >= upgradeBtnX && x <= upgradeBtnX + closeBtnWidth && y >= upgradeBtnY && y <= upgradeBtnY + closeBtnHeight) {
         this.closeUpgradeModal();
-        window.open('https://knowledgegraph.app/#pricing', '_blank');
+        window.open('https://api.leenchat.com/#pricing', '_blank');
         return;
       }
       return;

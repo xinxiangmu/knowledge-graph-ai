@@ -16,7 +16,6 @@
 - **Timeline View**: Display knowledge evolution in chronological order
 - **Hierarchy View**: Tree-structured knowledge categories
 - **Smart Search**: Multi-dimensional entity filtering and search
-- **Import & Export**: Backup and migrate knowledge graph data
 
 ---
 

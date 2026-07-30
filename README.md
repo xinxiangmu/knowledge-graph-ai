@@ -33,7 +33,6 @@
 - 📅 **时间轴视图 / Timeline View**: 按时间顺序展示知识节点
 - 🧩 **层级视图 / Hierarchy View**: 树状结构展示知识分类
 - 🔍 **智能搜索 / Smart Search**: 多维度过滤和搜索实体
-- 📤 **数据导入导出 / Import & Export**: 支持数据备份与迁移
 
 ---
 

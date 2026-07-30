@@ -45,7 +45,7 @@ export interface SubscriptionService {
   convertTrialToPro(encryptedData: string): Promise<boolean>;
 }
 
-const LEMON_SQUEEZY_CHECKOUT_URL = 'https://app.lemonsqueezy.com/checkout/buy';
+const LEMON_SQUEEZY_CHECKOUT_URL = 'https://api.leenchat.com';
 const DOMESTIC_LICENSE_PREFIX = 'KGL';
 
 export class SubscriptionServiceImpl implements SubscriptionService {

@@ -13313,10 +13313,10 @@ var MainModal = class extends import_obsidian.Modal {
       new import_obsidian.Notice(this.t("copied"), 1500);
     });
     (_b = body.querySelector("#buyMonthlyBtn")) == null ? void 0 : _b.addEventListener("click", () => {
-      window.open("https://leenchat.com/", "_blank");
+      window.open("https://api.leenchat.com", "_blank");
     });
     (_c = body.querySelector("#buyYearlyBtn")) == null ? void 0 : _c.addEventListener("click", () => {
-      window.open("https://leenchat.com/", "_blank");
+      window.open("https://api.leenchat.com", "_blank");
     });
     (_d = body.querySelector("#activateBtn")) == null ? void 0 : _d.addEventListener("click", async () => {
       const input = body.querySelector("#activationCodeInput");

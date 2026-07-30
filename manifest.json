@@ -4,8 +4,8 @@
   "version": "1.0.15",
   "minAppVersion": "1.5.0",
   "description": "Transform text into structured knowledge graphs with AI-powered entity extraction and relationship mapping.",
-  "author": "zero",
-  "authorUrl": "https://github.com/zero",
+  "author": "xinxiangmu",
+  "authorUrl": "https://github.com/xinxiangmu",
   "fundingUrl": "https://paypal.me/myzeroone/3.99",
   "isDesktopOnly": true
 }

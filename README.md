@@ -2,9 +2,9 @@
 
 > An AI-powered knowledge graph construction plugin for Obsidian.
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/zero/knowledge-graph-ai)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xinxiangmu/knowledge-graph-ai)
 ![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugins.json&query=%24%5B%3F(%40.id%20%3D%3D%20'knowledge-graph-ai')%5D.downloads&label=Downloads)
-![License](https://img.shields.io/github/license/zero/knowledge-graph-ai)
+![License](https://img.shields.io/github/license/xinxiangmu/knowledge-graph-ai)
 
 ---
 
@@ -50,7 +50,7 @@
 ### 📞 联系方式 / Contact
 
 - 邮件 / Email: `myzerool@outlook.com`
-- GitHub: [zero/knowledge-graph-ai](https://github.com/zero/knowledge-graph-ai)
+- GitHub: [xinxiangmu/knowledge-graph-ai](https://github.com/xinxiangmu/knowledge-graph-ai)
 
 ---
 

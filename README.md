@@ -8,15 +8,6 @@
 
 ---
 
-## 🌐 选择语言 / Select Language
-
-| 语言 / Language | 文件 / File |
-|-----------------|-------------|
-| 🇨🇳 中文 | [README.zh.md](README.zh.md) |
-| 🇬🇧 English | [README.en.md](README.en.md) |
-
----
-
 ## 📌 快速简介 / Quick Intro
 
 **Knowledge Graph AI** is an Obsidian plugin that transforms your notes into a structured knowledge network using AI-powered entity extraction and relationship mapping.
@@ -37,15 +28,19 @@
 3. 点击侧边栏的 🧠 图标打开面板 / Click the 🧠 icon in the sidebar to open the panel
 4. 上传文档开始分析 / Upload documents to start analysis
 
-### 📖 使用指南 / Usage Guide
+### 🔒 隐私政策 / Privacy Policy
 
-- 🇨🇳 中文指南: [docs/usage-guide.zh.md](docs/usage-guide.zh.md)
-- 🇬🇧 English Guide: [docs/usage-guide.en.md](docs/usage-guide.en.md)
+- 🇨🇳 隐私政策 / Privacy Policy: [privacy.html](https://knowledge-graph-ai.pages.dev/privacy.html)
+- 🇬🇧 服务条款 / Terms of Service: [terms.html](https://knowledge-graph-ai.pages.dev/terms.html)
+- 🇬🇧 退款政策 / Refund Policy: [refund.html](https://knowledge-graph-ai.pages.dev/refund.html)
 
-### 🔒 隐私政策 / Privacy
+### 💖 支持作者 / Support
 
-- 🇨🇳 隐私政策: [docs/privacy-policy.zh.html](docs/privacy-policy.zh.html)
-- 🇬🇧 Privacy Policy: [docs/privacy-policy.en.html](docs/privacy-policy.en.html)
+如果这个插件对你有帮助，可以考虑支持作者：
+
+If you find this plugin helpful, consider supporting the author:
+
+[![PayPal](https://img.shields.io/badge/PayPal-Support-00457C?logo=paypal)](https://paypal.me/myzeroone/3.99)
 
 ### 📞 联系方式 / Contact
 
@@ -55,3 +50,5 @@
 ---
 
 **⭐ 如果觉得这个插件对你有帮助，请给它一个 Star！**
+
+**⭐ If you find this plugin helpful, please give it a Star!**

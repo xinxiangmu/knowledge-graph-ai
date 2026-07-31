@@ -28,6 +28,14 @@
 3. 点击侧边栏的 🧠 图标打开面板 / Click the 🧠 icon in the sidebar to open the panel
 4. 上传文档开始分析 / Upload documents to start analysis
 
+### 🔄 升级 Pro / Upgrade to Pro
+
+解锁全部高级功能：无限文档解析、高级图谱导出、优先支持等。
+
+Unlock all premium features: unlimited document parsing, advanced graph export, priority support, and more.
+
+[![Buy Pro](https://img.shields.io/badge/Buy_Pro-Upgrade-FF6B35?logo=buy-me-a-coffee)](https://api.leenchat.com/#pricing)
+
 ### 🔒 隐私政策 / Privacy Policy
 
 - 🇨🇳 隐私政策 / Privacy Policy: [privacy.html](https://cloudflare-worker-30k.pages.dev/privacy.html)
